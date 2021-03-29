@@ -11,8 +11,6 @@
 		4E87384426120B6C0052890C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87384326120B6C0052890C /* ContentView.swift */; };
 		4E87384626120B6D0052890C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E87384526120B6D0052890C /* Assets.xcassets */; };
 		4E87384926120B6E0052890C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E87384826120B6E0052890C /* Preview Assets.xcassets */; };
-		4E87385426120B6E0052890C /* SwiftUITextEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87385326120B6E0052890C /* SwiftUITextEditorTests.swift */; };
-		4E87385F26120B6E0052890C /* SwiftUITextEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87385E26120B6E0052890C /* SwiftUITextEditorUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +38,7 @@
 		4E87384826120B6E0052890C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E87384A26120B6E0052890C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E87384F26120B6E0052890C /* SwiftUITextEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITextEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E87385326120B6E0052890C /* SwiftUITextEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextEditorTests.swift; sourceTree = "<group>"; };
-		4E87385526120B6E0052890C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E87385A26120B6E0052890C /* SwiftUITextEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITextEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E87385E26120B6E0052890C /* SwiftUITextEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextEditorUITests.swift; sourceTree = "<group>"; };
-		4E87386026120B6E0052890C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				4E87384026120B6C0052890C /* SwiftUITextEditor */,
-				4E87385226120B6E0052890C /* SwiftUITextEditorTests */,
-				4E87385D26120B6E0052890C /* SwiftUITextEditorUITests */,
 				4E87383F26120B6C0052890C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,24 +104,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4E87385226120B6E0052890C /* SwiftUITextEditorTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E87385326120B6E0052890C /* SwiftUITextEditorTests.swift */,
-				4E87385526120B6E0052890C /* Info.plist */,
-			);
-			path = SwiftUITextEditorTests;
-			sourceTree = "<group>";
-		};
-		4E87385D26120B6E0052890C /* SwiftUITextEditorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4E87385E26120B6E0052890C /* SwiftUITextEditorUITests.swift */,
-				4E87386026120B6E0052890C /* Info.plist */,
-			);
-			path = SwiftUITextEditorUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +120,8 @@
 			dependencies = (
 			);
 			name = SwiftUITextEditor;
+			packageProductDependencies = (
+			);
 			productName = SwiftUITextEditor;
 			productReference = 4E87383E26120B6C0052890C /* SwiftUITextEditor.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +193,8 @@
 				Base,
 			);
 			mainGroup = 4E87383526120B6C0052890C;
+			packageReferences = (
+			);
 			productRefGroup = 4E87383F26120B6C0052890C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E87385426120B6E0052890C /* SwiftUITextEditorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E87385F26120B6E0052890C /* SwiftUITextEditorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +397,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITextEditor/Preview Content\"";
 				DEVELOPMENT_TEAM = 94USWJR94U;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = SwiftUITextEditor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +420,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITextEditor/Preview Content\"";
 				DEVELOPMENT_TEAM = 94USWJR94U;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = SwiftUITextEditor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
