@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LoremIpsum",
+        "repositoryURL": "https://github.com/owlcoding/LoremIpsum-Swift/",
+        "state": {
+          "branch": null,
+          "revision": "47be1bbd0e2744a4f7d444907b137068a0b21388",
+          "version": "0.6.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
