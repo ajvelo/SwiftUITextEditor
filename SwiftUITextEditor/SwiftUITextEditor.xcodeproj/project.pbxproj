@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4E79199A26126C0D00A0183C /* LoremIpsum in Frameworks */ = {isa = PBXBuildFile; productRef = 4E79199926126C0D00A0183C /* LoremIpsum */; };
-		4E7919B926126E8E00A0183C /* SwiftUITextEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7919B826126E8E00A0183C /* SwiftUITextEditorTests.swift */; };
+		4E7919B926126E8E00A0183C /* WordCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7919B826126E8E00A0183C /* WordCountTests.swift */; };
 		4E87384226120B6C0052890C /* SwiftUITextEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87384126120B6C0052890C /* SwiftUITextEditorApp.swift */; };
 		4E87384426120B6C0052890C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87384326120B6C0052890C /* ContentView.swift */; };
 		4E87384626120B6D0052890C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E87384526120B6D0052890C /* Assets.xcassets */; };
 		4E87384926120B6E0052890C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E87384826120B6E0052890C /* Preview Assets.xcassets */; };
 		4EA6A3462613151600CCBF5A /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6A3452613151600CCBF5A /* StringExt.swift */; };
+		4EA6A35726131BE000CCBF5A /* SwiftUITextEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6A35626131BE000CCBF5A /* SwiftUITextEditorUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +25,18 @@
 			remoteGlobalIDString = 4E87383D26120B6C0052890C;
 			remoteInfo = SwiftUITextEditor;
 		};
+		4EA6A35926131BE000CCBF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E87383626120B6C0052890C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E87383D26120B6C0052890C;
+			remoteInfo = SwiftUITextEditor;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4E7919B626126E8E00A0183C /* SwiftUITextEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITextEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E7919B826126E8E00A0183C /* SwiftUITextEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextEditorTests.swift; sourceTree = "<group>"; };
+		4E7919B826126E8E00A0183C /* WordCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountTests.swift; sourceTree = "<group>"; };
 		4E7919BA26126E8E00A0183C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E87383E26120B6C0052890C /* SwiftUITextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITextEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E87384126120B6C0052890C /* SwiftUITextEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextEditorApp.swift; sourceTree = "<group>"; };
@@ -37,6 +45,9 @@
 		4E87384826120B6E0052890C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E87384A26120B6E0052890C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EA6A3452613151600CCBF5A /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		4EA6A35426131BE000CCBF5A /* SwiftUITextEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITextEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA6A35626131BE000CCBF5A /* SwiftUITextEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextEditorUITests.swift; sourceTree = "<group>"; };
+		4EA6A35826131BE000CCBF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +66,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EA6A35126131BE000CCBF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4E7919B726126E8E00A0183C /* SwiftUITextEditorTests */ = {
 			isa = PBXGroup;
 			children = (
-				4E7919B826126E8E00A0183C /* SwiftUITextEditorTests.swift */,
+				4E7919B826126E8E00A0183C /* WordCountTests.swift */,
 				4E7919BA26126E8E00A0183C /* Info.plist */,
 			);
 			path = SwiftUITextEditorTests;
@@ -72,6 +90,7 @@
 			children = (
 				4E87384026120B6C0052890C /* SwiftUITextEditor */,
 				4E7919B726126E8E00A0183C /* SwiftUITextEditorTests */,
+				4EA6A35526131BE000CCBF5A /* SwiftUITextEditorUITests */,
 				4E87383F26120B6C0052890C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +100,7 @@
 			children = (
 				4E87383E26120B6C0052890C /* SwiftUITextEditor.app */,
 				4E7919B626126E8E00A0183C /* SwiftUITextEditorTests.xctest */,
+				4EA6A35426131BE000CCBF5A /* SwiftUITextEditorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +132,15 @@
 				4EA6A3452613151600CCBF5A /* StringExt.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4EA6A35526131BE000CCBF5A /* SwiftUITextEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EA6A35626131BE000CCBF5A /* SwiftUITextEditorUITests.swift */,
+				4EA6A35826131BE000CCBF5A /* Info.plist */,
+			);
+			path = SwiftUITextEditorUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +184,24 @@
 			productReference = 4E87383E26120B6C0052890C /* SwiftUITextEditor.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4EA6A35326131BE000CCBF5A /* SwiftUITextEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA6A35B26131BE000CCBF5A /* Build configuration list for PBXNativeTarget "SwiftUITextEditorUITests" */;
+			buildPhases = (
+				4EA6A35026131BE000CCBF5A /* Sources */,
+				4EA6A35126131BE000CCBF5A /* Frameworks */,
+				4EA6A35226131BE000CCBF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EA6A35A26131BE000CCBF5A /* PBXTargetDependency */,
+			);
+			name = SwiftUITextEditorUITests;
+			productName = SwiftUITextEditorUITests;
+			productReference = 4EA6A35426131BE000CCBF5A /* SwiftUITextEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,6 +217,10 @@
 					};
 					4E87383D26120B6C0052890C = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					4EA6A35326131BE000CCBF5A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4E87383D26120B6C0052890C;
 					};
 				};
 			};
@@ -191,6 +242,7 @@
 			targets = (
 				4E87383D26120B6C0052890C /* SwiftUITextEditor */,
 				4E7919B526126E8E00A0183C /* SwiftUITextEditorTests */,
+				4EA6A35326131BE000CCBF5A /* SwiftUITextEditorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +264,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EA6A35226131BE000CCBF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7919B926126E8E00A0183C /* SwiftUITextEditorTests.swift in Sources */,
+				4E7919B926126E8E00A0183C /* WordCountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +292,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EA6A35026131BE000CCBF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA6A35726131BE000CCBF5A /* SwiftUITextEditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +307,11 @@
 			isa = PBXTargetDependency;
 			target = 4E87383D26120B6C0052890C /* SwiftUITextEditor */;
 			targetProxy = 4E7919BB26126E8E00A0183C /* PBXContainerItemProxy */;
+		};
+		4EA6A35A26131BE000CCBF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E87383D26120B6C0052890C /* SwiftUITextEditor */;
+			targetProxy = 4EA6A35926131BE000CCBF5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -446,6 +518,44 @@
 			};
 			name = Release;
 		};
+		4EA6A35C26131BE000CCBF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94USWJR94U;
+				INFOPLIST_FILE = SwiftUITextEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = andreasvelounias.SwiftUITextEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUITextEditor;
+			};
+			name = Debug;
+		};
+		4EA6A35D26131BE000CCBF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94USWJR94U;
+				INFOPLIST_FILE = SwiftUITextEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = andreasvelounias.SwiftUITextEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUITextEditor;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,6 +582,15 @@
 			buildConfigurations = (
 				4E87386426120B6E0052890C /* Debug */,
 				4E87386526120B6E0052890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA6A35B26131BE000CCBF5A /* Build configuration list for PBXNativeTarget "SwiftUITextEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA6A35C26131BE000CCBF5A /* Debug */,
+				4EA6A35D26131BE000CCBF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

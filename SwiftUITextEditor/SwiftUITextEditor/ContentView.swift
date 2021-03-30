@@ -16,19 +16,20 @@ struct ContentView: View {
             TextEditor(text: $text)
                 .font(.body)
                 .lineSpacing(16)
-                .accessibility(identifier: "textedit")
+                .accessibility(identifier: "texteditor")
                 .disableAutocorrection(true)
                 .padding()
             
             Text("\(text.wordCount()) words")
                 .font(.headline)
+                .accessibility(identifier: "wordcount")
                 .foregroundColor(.secondary)
                 .padding(.trailing)
         }
         
         Button("Add random paragraph") {
             text.append(String.loremIpsum(paragraphs: 1))
-        }
+        }.accessibility(identifier: "generateparagraphbtn")
     }
 }
 
